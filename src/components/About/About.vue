@@ -1,8 +1,8 @@
 <template>
   <div class="about">
-    <div class="about-bg">
+    <!-- <div class="about-bg">
       <img src="@/assets/img/bg-about.png" alt="" />
-    </div>
+    </div> -->
     <div class="container">
       <div class="about-content">
         <div class="about-content__info">
