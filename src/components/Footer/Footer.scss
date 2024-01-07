@@ -1,0 +1,62 @@
+.footer {
+    margin-top: 120px;
+    background: #131313;
+    padding-bottom: 80px;
+    h2 {
+        text-align: center;
+        color: #fff;
+        font-family: Syne;
+        font-size: 24px;
+        font-weight: 700;
+        margin-top: 80px;
+    }
+    &-content {
+        border-bottom: 1px solid #949494;
+        &-info {
+            h3 {
+                text-align: center;
+                margin-bottom: 115px;
+                padding-top: 100px;
+                color: #ff9142;
+                font-family: Syne;
+                font-size: 24px;
+                font-weight: 700;
+            }
+            &-link {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                @media (max-width: 630px) {
+                    flex-direction: column;
+                    gap: 20px;
+                }
+                .geo {
+                    color: #fff;
+                    font-family: Syne;
+                    font-size: 18px;
+                    font-weight: 700;
+                }
+                .contact {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+                    span {
+                        a {
+                            color: #fff;
+                            font-family: Syne;
+                            font-size: 18px;
+                            font-weight: 700;
+                        }
+                    }
+                    .networks {
+                        ul {
+                            display: flex;
+                            gap: 15px;
+                        }
+                        margin-bottom: 75px;
+                    }
+                }
+            }
+        }
+    }
+}
