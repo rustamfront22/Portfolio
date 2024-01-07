@@ -79,6 +79,10 @@
                 width: 454px;
                 height: 506px;
                 display: flex;
+                @media (max-width: 424px) {
+                    width: 300px;
+                    height: 400px;
+                }
             }
         }
     }
