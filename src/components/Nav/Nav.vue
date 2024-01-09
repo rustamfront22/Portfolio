@@ -1,5 +1,6 @@
 <template>
   <div class="header">
+    
     <div class="header-content container">
       <div class="pyramid-loader">
         <div class="wrapper">
@@ -10,6 +11,7 @@
           <span class="shadow"></span>
         </div>
       </div>
+      
     </div>
   </div>
 </template>
